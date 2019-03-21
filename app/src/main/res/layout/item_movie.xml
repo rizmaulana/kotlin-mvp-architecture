@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+            android:scaleType="centerCrop"
+            android:background="@color/colorManatee"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintDimensionRatio="H,3:1" android:id="@+id/appCompatImageView"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:elevation="16dp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorGhostWhite"
+            android:layout_width="@dimen/space_96"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintDimensionRatio="H,2:3" android:id="@+id/appCompatImageView2"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            style="@style/TextAppearance.RobotoBlack"
+            android:textColor="@color/colorOnyx"
+            android:textSize="@dimen/text_19"
+            android:text="Captain Marvel "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/appCompatImageView"
+            app:layout_constraintStart_toEndOf="@+id/appCompatImageView2" android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" android:id="@+id/appCompatTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" android:layout_marginRight="16dp"/>
+    <androidx.appcompat.widget.AppCompatTextView
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_star_half_amber"
+            android:textSize="@dimen/text_14"
+            style="@style/TextAppearance.RobotoRegular"
+            android:textColor="@color/colorOnyx"
+            android:text="8.9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_constraintStart_toEndOf="@+id/appCompatImageView2"
+            android:layout_marginStart="16dp" android:layout_marginLeft="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" android:id="@+id/appCompatTextView4"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/appCompatTextView3"
+            android:ellipsize="end"
+            android:textSize="@dimen/text_14"
+            android:lines="2"
+            android:maxLines="2"
+            style="@style/TextAppearance.RobotoRegular"
+            android:textColor="@color/colorManatee"
+            android:text="The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe."
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" app:layout_constraintStart_toEndOf="@+id/appCompatImageView2"
+            android:layout_marginStart="16dp" android:layout_marginLeft="16dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" android:layout_marginRight="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/appCompatTextView4" android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/ic_favorite_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="@+id/appCompatImageView"
+            android:layout_marginEnd="16dp" android:layout_marginRight="16dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="title_movie">Movie</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="msg_error">Cannot process your request, please try again later.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:showAsAction="always" android:title="@string/menu_favorite" android:id="@+id/action_favorite" android:icon="@drawable/ic_favorite_primary"/>
+    <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/ic_search_primary"
+            android:orderInCategory="100"
+            android:title="Search"
+            app:showAsAction="always" />
+</menu>

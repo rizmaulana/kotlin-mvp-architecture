@@ -1,0 +1,62 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8971304373760249750",
+      "lastPropertyId": "9:4757230989342661475",
+      "name": "MovieDto",
+      "properties": [
+        {
+          "id": "1:6416448682821869152",
+          "name": "id"
+        },
+        {
+          "id": "2:2561486758008965505",
+          "name": "vote_count"
+        },
+        {
+          "id": "3:4742798168062843711",
+          "name": "vote_average"
+        },
+        {
+          "id": "4:9136236768497471230",
+          "name": "title"
+        },
+        {
+          "id": "5:4111739870623740950",
+          "name": "popularity"
+        },
+        {
+          "id": "6:7346407445218583411",
+          "name": "poster_path"
+        },
+        {
+          "id": "7:2493978646454845107",
+          "name": "original_language"
+        },
+        {
+          "id": "8:1235028152897747905",
+          "name": "backdrop_path"
+        },
+        {
+          "id": "9:4757230989342661475",
+          "name": "overview"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:8971304373760249750",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

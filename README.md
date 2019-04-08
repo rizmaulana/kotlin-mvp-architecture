@@ -14,7 +14,7 @@ etc ...
 <img src="https://docs.google.com/uc?id=1YZOEVCcc9FgaQDjiYpZ35BGdZoYFSvqR"/>
 
 
-Reference : https://github.com/rizmaulana/android-mvp-architecture/blob/master/README.md
+Reference : https://github.com/MindorksOpenSource/android-mvp-architecture
 
 ### License
 ```
